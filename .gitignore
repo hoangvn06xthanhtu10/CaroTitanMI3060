@@ -1,0 +1,19 @@
+# Bỏ qua thư mục build của CMake
+build/
+out/
+bin/
+
+# Bỏ qua các file thực thi và thư viện biên dịch sẵn
+*.exe
+*.o
+*.obj
+*.dll
+*.lib
+*.so
+*.dylib
+
+# Bỏ qua file cấu hình cá nhân của VSCode (chỉ giữ lại file workspace)
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
